@@ -1,0 +1,52 @@
+.side {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  right: 0;
+   /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,1);
+  background-color: #f1f1f1;
+}
+
+/* The navigation menu links */
+.side a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(255, 170, 0);
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.side a:hover {
+  color: #00ff62;
+}
+
+/* Position and style the close button (top right corner) */
+.side .closebtn {
+  position: absolute;
+  top: 0;
+  left: 30px;
+  font-size: 36px;
+  margin-right: 200px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .side {padding-top: 15px;}
+  .side a {font-size: 18px;}
+}
+
+.titik3 {
+  position: absolute;
+  left: 95%;
+  top: 27px;
+}

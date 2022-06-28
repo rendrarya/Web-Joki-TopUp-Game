@@ -1,0 +1,42 @@
+*{margin: 0px auto;}
+html,body{
+    height: 100%;
+
+}
+
+.container_footer{
+    min-height: 100%;
+}
+
+.content{
+    padding: 10px;
+}
+
+.footer1{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+    padding-left: 10px;
+    position:absolute;
+    bottom: -50%;
+    
+}
+
+.cp{
+    size: 10px;
+}
+
+.text-footer {
+    margin-top: 15px;
+    color: rgb(255, 170, 0);
+}
+.kepala{
+position: relative;
+top: 0px;
+height: 90px;
+background-color: #f1f1f1;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+
+    
+}
